@@ -5,7 +5,7 @@ import Insta from "../images/ant-design_instagram-outlined.png";
 import { Link } from "react-router-dom";
 import "./footer.css";
 
-function footer() {
+function footer(n) {
   return (
     <div className="footer-all">
       <div className="footer-u">
@@ -13,13 +13,13 @@ function footer() {
           <h1>Trust-One</h1>
           <p>
             Discover your ideal home effortlessly with our intuitive real
-            <br />
+
             estate platform. Explore detailed property listings, financing
-            <br />
+
             options, and easy scheduling. Stay informed with our
-            <br />
+
             newsletter and social media updates. Your dream home
-            <br />
+
             journey begins here.
           </p>
           <div className="socialmedia">
@@ -69,20 +69,22 @@ function footer() {
             </Link>
           </ul>
         </div>
-      </div>
-      <div className="footer-lk">
-        <div className="footer-line"></div>
-        <div className="base">
-          <Link className="base-link1">
-            © 2024 Realtors All Rights Reserved.
-          </Link>
-          <Link className="base-link2">
-            Privacy Policy | Terms and Conditions
-          </Link>
+        <div>
+          <ul className="customer">                                                                                                                                                                                                                                         
+            <Link className7;;="customer-link2">
+              <li>Contact Us</li>
+            </Link>
+            <Link className="customer-link3">
+              <li>Customer Testimo nials</li>
+            </Link>
+          </ul>
         </div>
       </div>
     </div>
-  );
-}
+bet
+
+
+
+e}
 
 export default footer;
