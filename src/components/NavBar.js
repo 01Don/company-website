@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../images/TRUST_ONE_LOGO.png";
+import Logo from "../images/TRUST LOGO 2024.png";
 import "./NavBar.css";
 import { IoClose, IoMenu } from "react-icons/io5";
 
@@ -16,7 +16,7 @@ function NavBar() {
       <div className="Nav-container">
         <Link to="/" className="Nav-logo">
           <img src={Logo} alt="logo" className="logo" />
-          Trust-One
+         
         </Link>
         <div className="Nav-toggle" onClick={toggleMenu}>
           {isOpen ? <IoClose /> : <IoMenu />}
@@ -44,9 +44,11 @@ function NavBar() {
               </Link>
             </li>
             <li>
+              <Link to="/SignUp">
               <button className="Nav-btn" onClick={toggleMenu}>
                 Sign In
               </button>
+              </Link>
             </li>
           </ul>
         </nav>

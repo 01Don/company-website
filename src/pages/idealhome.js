@@ -5,16 +5,16 @@ function idealhome() {
   return (
     <div>
       <div className='id-text'>
-        <div><img src={Happy} alt='worker' className='worker-img'/></div>
-        <div className='all-text'>
-        <h1 className='uncover-text'>Uncover Our Real <br/> Estate Journey</h1>
-        <p className='p-text'>Embark on a narrative shaped by unwavering <br/>
-          commitment and innovation, where trust is the<br/>
-          cornerstone. Our legacy transcends<br/>
-          transactions, weaving a tale of community <br/>
+        <img src={Happy} alt='worker' className='worker-img'/>
+        <div className='text-only'>
+        <h1 className='uncover-text'>Uncover Our Real  Estate Journey</h1>
+        <p className='p-text'>Embark on a narrative shaped by unwavering 
+          commitment and innovation, where trust is the 
+          cornerstone.Our legacy transcends
+          transactions, weaving a tale of community 
           impact and enduring relationships. </p>
-        </div>
-        
+          
+          </div>
       </div>
     </div>
   )

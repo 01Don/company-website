@@ -5,12 +5,11 @@
 }
 
 .home-text{
-  
-  margin-right: 24px;
+  margin-left: 50px;
 }
 
 .home-img{
-  margin-left: 53px;
+  margin-right: 90px;
 }
 .hom-img{
   border-radius: 29px;
@@ -45,11 +44,13 @@
 top: 2px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .home-content{
-    display: grid;
+    display: flex;
     padding: 0 0 0;
-  
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 30px;
   }
   .head-text{
     font-size: 40px;
@@ -57,13 +58,8 @@ top: 2px;
  
   .hom-img{
     width: 330px;
-
+    margin-top: 30px;
   }
-  .home-img{
-    margin-left:20px;
-    margin-top: 20px;
-  }
-  .home-text{
-    margin-left:20px ;
-  }
+  
 }
+

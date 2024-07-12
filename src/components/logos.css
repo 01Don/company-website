@@ -1,26 +1,25 @@
-.logo-container{
+.logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 0px;
   gap: 3em;
-  position: relative;
-  
+  width: 90%;
+  margin-left: 5%;
 }
 
-.line1{
+.line1 {
   width: 70%;
   height: 1px;
   background: #BBBBBB;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 15%;
 }
 
-.line2{
+.line2 {
   width: 70%;
   height: 1px;
   background: #BBBBBB;
@@ -28,31 +27,29 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  margin-left: 300px;
+  margin-left: 15%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px){
   .logo-container{
-    display: grid;
     gap: 0;
-    position: relative;
-    top: 0px;
   }
-  .line1{
-    margin-left: 50px;
-    margin-top: 30px;
-    
+}
+
+
+
+@media (max-width:480px) {
+  .logo-container {
+    display: grid;
+    gap: 0px;
+    width: 100%;
   }
-  .line2{
-    margin-left: 50px;
-    margin-top: 0px;
+
+  .line1 {
+    margin-left: 60px;
   }
-  .logo5,.logo1,.logo2,.logo3,.logo4{
-    width: 100px;
-  }
-  .logo-5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .line2 {
+    margin-left: 60px;
   }
 }

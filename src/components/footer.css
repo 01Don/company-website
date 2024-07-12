@@ -1,55 +1,68 @@
-.footer-all{
-    position: relative;
+.footer {
+    width: 100%;
     background: #257187;
-    bottom: 0;
-    top: 200px;
-    display: flex;
-    flex-direction: column;
     color: #fff;
-    height: 100%;
-    
-}
-.footer-u{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
-    right: 100px;
+    bottom: 0;
 }
-.footer-line{
+
+.footer-container {
+    width: 90%;
+}
+
+.footer-u {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-line {
     width: 70%;
     height: 1px;
     background: #fff;
-     margin-left: 350px;  
-     margin-top: -40px;
-    
+    margin-left: 350px;
+    margin-top: -40px;
+
 }
 
-.customer-link1, .customer-link2, .customer-link3,.quicklink-link1,.quicklink-link2,.quicklink-link3,.quicklink-link4{
+.customer-link1,
+.customer-link2,
+.customer-link3,
+.quicklink-link1,
+.quicklink-link2,
+.quicklink-link3,
+.quicklink-link4 {
     text-decoration: none;
     list-style: none;
     color: #fff;
 }
-.footer-lk{
-    margin:10px;
+
+.footer-lk {
+    margin: 10px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-.base-link1{
+.base-link1 {
     text-decoration: none;
     color: #fff;
     position: relative;
     right: 950px;
 }
-.base-link2{
+
+.base-link2 {
     text-decoration: none;
     color: #fff;
     position: relative;
     right: 300px;
-    
+
 }
-.socialmedia{
+
+.socialmedia {
     display: flex;
     justify-content: baseline;
     gap: 10px;
@@ -57,23 +70,34 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
+    .footer-container {
+        width: 100%;
+        margin: 0;
+    }
 
-    .footer-u{
-      display: grid;
-      position: relative;
-      right: 0;
+    .footer-u {
+        display: grid;
+        position: relative;
+        right: 0;
 
     }
-    .footer-text{
+
+    .footer-text {
         margin: 10px 40px;
     }
-    .footer-line{
-       position: relative;
-       bottom: 30px;
+
+    .footer-line {
+        position: relative;
+        bottom: 30px;
     }
-    .footer-all{
+
+    .footer-all {
         margin-top: -150px;
     }
-   
+
+    .customer {
+        margin-top: -190px;
+        margin-left: 400px;
+    }
 }
